@@ -1,0 +1,10 @@
+Create a python project as described in the following outline
+For this project we will use the ChatterboxTTS library from resemble.ai.  The source for that library is at https://github.com/resemble-ai/chatterbox and the AI documentation is at: https://docs.app.resemble.ai/docs/getting_started/quick_start
+We will also use the MoviPy library which is available at: https://pypi.org/project/moviepy/ and the documentation is available at: https://zulko.github.io/moviepy/
+
+1) A class for synthesizing speech from text using the CatterboxTTS library that includes the following methods:
+	A)  a method for converting text to speech using the CatterboxTTS library using voice sample whose file name is provided a yaml file named “settings.yaml”.
+	B) A method and for reading all text files in a provided directory and converting them to speech
+2) A class for producing video files using the Moviep library that includes the following methods:
+	A) A method that creates a video by assembling source files in a specified directory.   This method will assemble the video by matching up .png files in the sub directory named “image_sources”, with .wave files of the same name in the sub directory named “audio_sources”, and stitching them together into a single video file using MoviePy.  The final output video file should be placed a subdirectory called “final_video”.   Any parameters needed should be read from a yaml configuration file called “settings.yaml”
+3) Create a readme.md file for the project that includes an overview description of the functionality and a high-level description of the structure of the project.

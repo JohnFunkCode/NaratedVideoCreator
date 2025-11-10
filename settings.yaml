@@ -1,0 +1,21 @@
+# Project settings for Chatterbox TTS + MoviePy pipeline
+# Adjust paths as needed; relative paths are resolved from the project root.
+tts:
+  device: "auto"             # "cuda", "mps", "cpu", or "auto"
+  voice_prompt_path: "voice_samples/ChatterboxCloneExample2.wav"  # Path to a reference voice sample (wav). Leave empty to use default voice.
+  cfg_weight: 0.5            # Optional Chatterbox CFG; 0.3-0.7 are typical
+  exaggeration: 0.5          # Optional emotion/exaggeration control; 0.0-1.0
+
+paths:
+  text_sources_dir: "data/text_sources"
+  audio_sources_dir: "data/audio_sources"
+  image_sources_dir: "data/image_sources"
+  final_video_dir: "data/final_video"
+
+video:
+  fps: 24
+  resolution: [1280, 720]      # Final video resolution (width, height). Clips are letterboxed to fit.
+  codec: "libx264"
+  audio_codec: "aac"
+  bitrate: "3000k"             # Optional video bitrate
+  filename_pattern: "final_{timestamp}.mp4"  # {timestamp} will be replaced with YYYYmmdd_HHMMSS
