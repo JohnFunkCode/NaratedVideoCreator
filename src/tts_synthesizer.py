@@ -121,7 +121,7 @@ class SpeechSynthesizer:
         if current_sentences:
             chunks.append(" ".join(current_sentences))
 
-        logging.info(f"\nOriginal text:\n{text}\n===")
+        logging.info(f"Original text:\n{text}\n===")
         logging.info(f"Split into {len(chunks)} chunks")
 
         return chunks
@@ -178,6 +178,7 @@ class SpeechSynthesizer:
 
         generated: list[Path] = []
         for txt_path in sorted(text_dir.glob("*.txt")):
+            logging.info("Processing file: %s", txt_path.name)
             with open(txt_path, "r", encoding="utf-8") as f:
                 text = f.read().strip()
             if not text:
@@ -207,7 +208,7 @@ class SpeechSynthesizer:
                 # Either file does not exist, or text is newer – (re)generate
                 self.synthesize_to_file(chunks[0], out_path)
                 generated.append(out_path)
-                logging.info("Generated: %s", out_path)
+                logging.info("Generating: %s", out_path)
             else:
                 for idx, chunk_text in enumerate(chunks, start=1):
                     out_path = output_dir / f"{base_name}-{idx:02d}{suffix}"
