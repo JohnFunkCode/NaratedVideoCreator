@@ -8,6 +8,8 @@ import torch
 import torchaudio as ta
 from chatterbox.tts import ChatterboxTTS
 
+import re
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s: %(message)s",
@@ -56,38 +58,71 @@ class SpeechSynthesizer:
             if not Path(self.voice_prompt_path).exists():
                 logging.warning("Configured voice_prompt_path does not exist: %s", self.voice_prompt_path)
 
-    def _split_text(self, text: str, max_words: int = 200) -> list[str]:
-        """Split `text` into chunks of up to `max_words` words, preferring paragraph boundaries (detected by blank lines)."""
+    def _split_text(self, text: str, max_words: int = 100) -> list[str]:
+        """
+        Split `text` into chunks of up to `max_words` words.
+
+        Heuristics:
+        - Prefer to keep whole sentences together.
+        - Prefer to respect paragraph breaks (blank lines).
+        - If a single sentence exceeds `max_words`, split that sentence
+          into smaller word-based chunks.
+        """
         # Normalize line endings
-        normalized = text.replace('\r\n', '\n').replace('\r', '\n')
+        normalized = text.replace("\r\n", "\n").replace("\r", "\n")
         # Split by blank lines (paragraph boundaries)
-        paragraphs = [p.strip() for p in normalized.split('\n\n') if p.strip()]
+        paragraphs = [p.strip() for p in normalized.split("\n\n") if p.strip()]
 
         chunks: list[str] = []
-        current_chunk: list[str] = []
+        current_sentences: list[str] = []
         word_count = 0
 
         for paragraph in paragraphs:
-            words = paragraph.split()
-            para_word_count = len(words)
+            # Naive sentence split: split on punctuation + whitespace.
+            # This keeps the punctuation at the end of each sentence.
+            sentences = [
+                s.strip()
+                for s in re.split(r"(?<=[.!?])\s+", paragraph)
+                if s.strip()
+            ]
 
-            # If adding this paragraph would exceed max_words, start a new chunk
-            if word_count + para_word_count > max_words and current_chunk:
-                chunks.append("\n\n".join(current_chunk))
-                current_chunk = [paragraph]
-                word_count = para_word_count
-            else:
-                current_chunk.append(paragraph)
-                word_count += para_word_count
+            for sentence in sentences:
+                words = sentence.split()
+                n = len(words)
+                if n == 0:
+                    continue
 
-        # Append any remaining text as a final chunk
-        if current_chunk:
-            chunks.append("\n\n".join(current_chunk))
+                # If this sentence alone is longer than max_words:
+                # flush any current chunk, then split this sentence itself.
+                if n > max_words:
+                    if current_sentences:
+                        chunks.append(" ".join(current_sentences))
+                        current_sentences = []
+                        word_count = 0
 
-        print(f'\nOriginal text:\n{text}\n===')
-        print(f'Split into {len(chunks)} chunks')
-        for chunk in chunks:
-            print(f'----\n{chunk}')
+                    for i in range(0, n, max_words):
+                        sub_words = words[i : i + max_words]
+                        sub_text = " ".join(sub_words)
+                        chunks.append(sub_text)
+                    continue
+
+                # Normal case: sentence fits within max_words
+                if word_count + n > max_words and current_sentences:
+                    # Close current chunk, start a new one with this sentence
+                    chunks.append(" ".join(current_sentences))
+                    current_sentences = [sentence]
+                    word_count = n
+                else:
+                    # Add sentence to current chunk
+                    current_sentences.append(sentence)
+                    word_count += n
+
+        # Append any remaining sentences as a final chunk
+        if current_sentences:
+            chunks.append(" ".join(current_sentences))
+
+        logging.info(f"\nOriginal text:\n{text}\n===")
+        logging.info(f"Split into {len(chunks)} chunks")
 
         return chunks
 
@@ -97,10 +132,14 @@ class SpeechSynthesizer:
         Generate speech from `text` and save as WAV to `output_path`.
         Respects voice sample from settings.yaml if provided.
         """
+        words = text.split()
+        para_word_count = len(words)
+
+        logging.info(f'Synthesizing the following text which is {para_word_count} words long:\n"{text}"\n storing the audio in: {output_path}')
         output_path = Path(output_path)
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
-        logging.info("Synthesizing to %s", output_path)
+        # logging.info("Synthesizing to %s", output_path)
         wav = self.model.generate(
             text,
             audio_prompt_path=self.voice_prompt_path,  # may be None for default voice
@@ -145,8 +184,8 @@ class SpeechSynthesizer:
                 logging.warning("Skipping empty file: %s", txt_path.name)
                 continue
 
-            # Split text into chunks of up to 200 words
-            chunks = self._split_text(text, max_words=200)
+            # Split text into chunks of up to 100 words
+            chunks = self._split_text(text, max_words=100)
             base_name = txt_path.stem
 
             if len(chunks) == 1:
