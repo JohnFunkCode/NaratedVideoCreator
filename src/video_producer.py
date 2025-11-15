@@ -2,7 +2,8 @@ import logging
 from pathlib import Path
 from typing import Optional, Tuple, List
 import yaml
-from moviepy import ImageClip, AudioFileClip, ColorClip, CompositeVideoClip, concatenate_videoclips
+from moviepy import ImageClip, AudioFileClip, ColorClip, CompositeVideoClip, CompositeAudioClip, concatenate_videoclips
+import os
 
 # try:
 #     from moviepy.editor import ImageClip, AudioFileClip, concatenate_videoclips, CompositeVideoClip
@@ -128,9 +129,25 @@ class VideoProducer:
 
             for idx, wav_path in chunks:
                 logging.info("   Assembling clip: image=%s, audio=%s", img_path.name, wav_path.name)
+
                 audio_clip = AudioFileClip(str(wav_path))
-                img_clip = _letterbox_image_clip(img_path, self.target_size).with_duration(audio_clip.duration)
-                clip = img_clip.with_audio(audio_clip)
+                lead_in = 1.0  # seconds of silent lead before audio starts
+
+                # Total video duration = silent lead + audio length
+                total_duration = audio_clip.duration + lead_in
+
+                # Still image lasts for the entire (lead + audio) duration
+                img_clip = _letterbox_image_clip(img_path, self.target_size).with_duration(total_duration)
+
+                # Shift audio so it starts at t = lead_in
+                shifted_audio = audio_clip.with_start(lead_in)
+
+                # CompositeAudioClip returns silence before `lead_in`, then the audio
+                composite_audio = CompositeAudioClip([shifted_audio])
+
+                # Attach audio to the image clip
+                clip = img_clip.with_audio(composite_audio)
+
                 clips.append(clip)
 
         logging.info("Assembling final video...")
