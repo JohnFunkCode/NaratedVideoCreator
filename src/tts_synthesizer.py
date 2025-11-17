@@ -126,7 +126,7 @@ class SpeechSynthesizer:
 
         return chunks
 
-    # 1A) Convert text to speech with ChatterBox, using voice sample from settings.yaml
+    # Convert text to speech with ChatterBox, using voice sample from settings.yaml
     def synthesize_to_file(self, text: str, output_path: str | Path) -> Path:
         """
         Generate speech from `text` and save as WAV to `output_path`.

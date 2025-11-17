@@ -1,0 +1,6 @@
+After you have your password manager setup, the next step I recommend is to start using Two-Factor Authentication everywhere you can.
+
+Two-Factor Authentication is like having two locks on your door that use separate keys.  Typically Two-Factor Authentication involves entering your password followed by a verification code sent to your mobile device. This provides added protection because if a criminal gets your password, and you’re using Two-Factor Authentication, you’re still safe because the criminal doesn't have the second key.
+I recommend setting up Two-Factor authentication for access to any banking or investment account.  I also recommend setting it up for shopping sites like Amazon, where someone could buy things on your account if they get your password.   You should also use it for social media accounts like facebook, because they get hacked so often.
+
+…again, if you have Two-Factor Authentication turned on, you’re protected even if someone gets your password.

@@ -1,0 +1,12 @@
+These scams keep evolving, and new ones keep appearing as the criminals search for new ways to trick people.
+
+Here's a new scam that hit the news as I was preparing this talk.
+It’s a multi-step scam carefully designed to gain your confidence by building it slowly through multiple contacts.
+
+In this scam someone pretends to be a technical support agent calling to help you.   Their real goal is to get you to install malicious software on your device to get to your financial information.  This first bad actor seems to help you solve the problem, but in the process they also get malware planted on your computer.
+
+Next a second bad actor posing as someone from your bank calls you and tells you the tech support team has alerted them to a problem.   They're just trying to build confidence in their made-up scenario.  Often they will pretend to let you talk to a phony bank manager who will advise you how to keep your money safe.  If you seem like a willing participant, they will help you move money into a new account for safety reasons.  If that works, they've got your money and they're done!  If you don't seem to buy into their scam, they tell you they are going to refer your case to law enforcement to bolster your confidence in the story.
+
+Finally, a third bad actor posing as someone from law enforcement contacts you telling you that the bank alerted them to fraud in your account.  They may get you to fill out a fake report, and they may stretch things out over multiple calls to further bolster your confidence.  Once they have you completely bought in to their story, they move in for the kill.  They tell you they will hold your money in an escrow account to keep it safe while they go after the criminals.  At this point the bad guys have built enough trust that victims often transfer large amounts of money into their control thinking they are helping law enforcement.
+
+But in the end it's just an elaborate scam to steal your money.

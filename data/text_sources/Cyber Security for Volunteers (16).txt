@@ -1,0 +1,11 @@
+We talked a bit about the risks of password reuse.
+
+The most prevalent way criminals impersonate you to commit crimes is through password reuse.   Re-using passwords is bad because if a criminal gets your password from one site due to a data breach the first thing they do is try it in as many places as possible to see if it works.   That’s a problem if you use the same password for facebook and your bank. The next time facebook gets hacked the bad-guys will also have your password for your bank and it won't take them long to put it to work and empty your bank account.
+
+Password strength is another issue.  Commonly used words are trivial for criminals to break. Hackers have lists of the most commonly used passwords, and they try them right away before any other approach.  That means Passwords like “Monkey” or “1 2 3 4 5 6” are ineffective in stopping criminals.  They get right through them.
+
+The length of a password is the factor that makes the most difference.  This password strength chart shows it would take a century to crack a 15-character password, but a 5-character password can be cracked in seconds.
+
+That means the best practice is to use unique long, strong passwords for everything.   But how do you keep track of all those passwords if you have dozens or hundreds of them?? ,Fortunately password managers make that easy.   The computer simply remembers your passwords for you, and it can even automatically enter them for you, if you want to use that feature.  Some password managers support multiple platforms like Windows, Mac, IPhone, and Android.  So your passwords are available no matter what device you use.  The more advanced password managers even have features that allow you to designate a ‘legacy contact’ or ‘emergency contact' who can access your passwords if you are unable.  This feature would have been invaluable for one of my friends who had a stroke and couldn't operate his computer anymore.
+
+To me the legacy feature in my password-manager is a key feature that I do use.  The way it works is that if I don't log into my password manager for some set amount of time, it will email my legacy contact, and remind them of the system I setup for them to access my passwords.

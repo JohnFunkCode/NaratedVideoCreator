@@ -73,7 +73,7 @@ class VideoProducer:
         self.bitrate = self.video_cfg.get("bitrate", None)
         self.filename_pattern = self.video_cfg.get("filename_pattern", "final_{timestamp}.mp4")
 
-    # 2A) Assemble a video by matching PNGs in image_sources with WAVs in audio_sources
+    # Assemble a video by matching PNGs in image_sources with WAVs in audio_sources
     def create_video_from_directory(self, root_dir: str | Path, output_path: Optional[str | Path] = None) -> Path:
         """
         Looks under:

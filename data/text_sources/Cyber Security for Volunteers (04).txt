@@ -1,0 +1,12 @@
+Because cyber crime is so lucrative, people all around the globe are joining the game!,
+
+Attacks are Global!,
+Cybercrime has changed the game, criminals no longer need to be anywhere near you to strike. In the past, crime required physical presence: to rob a house, you had to be in it; to pick a pocket, you had to be close enough to touch. Today, thanks to the internet and our always-connected devices, someone sitting thousands of miles away can trick you out of your money while you’re having dinner, or hijack your home network through a smart light switch. This ease of access has made cybercrime incredibly tempting. It’s low-risk, high-reward, and anyone with basic tools and bad intent can reach across the globe with a few keystrokes.  ,To help illustrate that point, here’s a map that shows active cyber attacks around the globe.
+
+
+Cyber Gangs are Organized!,
+Today’s cyber criminals don’t work alone.  They operate in sophisticated, global networks that function like multinational corporations. These groups have structured hierarchies, with teams for product development, marketing, legal, and even call centers staffed by trained scammers.  One recent report described a group that built a software platform to control a fleet of robots for sending scam texts across the globe. They licensed the tool to others, who ran call centers to exploit victims.  While a third group handled money laundering, and splitting the profits.  Cybercrime has become an ecosystem of highly specialized, well-funded, and ruthlessly efficient criminal organizations that work together.
+
+
+Data Brokers!,
+A disturbing part of the cybercrime ecosystem is the role of data brokers. These companies, both legal and shady, collect and sell massive amounts of personal data. In my opinion, their business should be illegal. They gather thousands of data points per person, including Social Security numbers, addresses, salaries, medical info, even behavioral data like shopping habits. While they sell to advertisers, much of this data leaks into the hands of cybercriminals. The line between data brokers and cyber gangs is thin. After every major data breach, stolen info often ends up in broker databases—and from there, it fuels cybercrime. For many attackers, buying victim data is just part of the business model.

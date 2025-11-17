@@ -1,0 +1,14 @@
+We’ve already talked a bit about malware.   
+
+If you don’t visit sketchy websites or do risky things, the built-in Malware prevention mechanisms in Windows, Mac, iOS, and Android are probably sufficient to protect you if you follow a few simple guidelines.
+
+Here are my tips to prevent Malware:
+
+,Never grant anyone remote access to your computer!  You’ve heard me say this a few times.  Don’t do it, ever!
+
+It's also important to keep your operating system and the apps you use up to date.  This can be a pain, but  Microsoft, Apple, and Google are in a constant race with hackers, staying current with the latest fixes is the best way to stay ahead of the bad guys. The hand-out has instructions to update  iPhones, Android, Windows, and Macs.
+
+It's also important to Only install apps that you seek out yourself.   Chances are good that if you want an app, and you go find it and install it that it’s ok.   But if someone else makes it sound like a good idea, and they tell you where to get it, it’s questionable!   As a rule, don’t install free games, video players, investment apps, etc.  they can’t be trusted, especially if someone is enticing you to do it.
+
+Lastly, delete any apps you aren’t using.  I suggest doing that monthly or quarterly because there is a new trend where criminals are buying up successful mobile apps from their original developer and embedding malware into them.   The criminals have found that it’s so valuable to get malware on someone’s phone, they are willing to buy out existing apps so they can infect and steal from its user base.   In most cases the original developer has no idea they sold their work to cyber criminals.  But the next version of the app gets loaded up with malware, and everyone using it gets scammed!
+

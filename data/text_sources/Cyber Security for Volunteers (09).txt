@@ -1,0 +1,16 @@
+Here are a few real-world examples I’ve encountered recently.
+
+Number 1 is a flyer I saw posted by my local police department warning about scams affecting people in our area.  It calls out the following common scams:
+They are warning people about calls from someone claiming a friend or family member has been arrested.,
+They also see an increase in calls from someone claiming to be from your bank, saying your account has been compromised.,
+And they are warning about calls from someone claiming to be a law enforcement officer, saying you’ll be arrested if you don’t pay a fine.,
+
+Number 2, is a text I got claiming to be from the DMV saying I had an outstanding fine, and demanding that I “Pay Now” - Notice it came from country code +63. That's a phone number in the Philippines!
+
+Number 3, is a text I received claiming I had an unpaid Express Toll, saying this is the last warning, and demanding that I “Pay Now” - Notice it came from a non-descript gmail account.
+
+Number 4, is the newest one.  It claims to be from one of my children asking me to send them a message on their new phone.  This one is good!  I think it would trick most people.  For me it was an obvious scam because I don't have kids! I bet it's the beginning of a confidence scam where the criminals are trying to groom me into trusting them so they can take advantage of me later.
+
+Number 5, is more subtle, and even I couldn’t see anything wrong with it.  It's an email from someone I don’t know claiming to send me 40 dollars, prompting me to click the “Accept the Money” button.   This one was tricky.  The only way I knew it was fake is I logged into paypal and saw there was no sign of any pending money transfer in my account, and of course I don't know the person in the email.
+
+Notice the common theme in each of these examples is that they try to instill a sense of urgency to get you to act now.  Don’t do it!, Instead, just delete the message and move on.

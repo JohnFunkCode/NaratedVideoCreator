@@ -1,0 +1,7 @@
+To set the stage for the rest of the talk I want to define a few terms.  I simplify the way I think of cybercrime against individuals.  I lump them into three buckets:
+1:,Identity Theft - When someone fraudulently impersonates you.
+2:,Direct Theft - when someone fraudulently steals something from you.
+and
+3:,Malware Infections - Planting malware to steal your identity or something else.
+
+We’ll use these definitions throughout the remainder of this talk.

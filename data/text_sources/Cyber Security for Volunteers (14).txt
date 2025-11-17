@@ -1,0 +1,15 @@
+Identity theft can lead to financial ruin and can take years to clean up.
+
+However, there are a few simple things you can do to prevent identity theft.
+
+First, I recommend that everyone freeze their credit.   While you have a credit freeze in place, no one including you can open new financial accounts in your name.  This prevents criminals from opening new credit cards, or bank accounts in your name.  And it also helps reduce how much information scammers can learn about you.
+
+Second, I recommend everyone use a password manager to create long strong unique passwords.   Everything you do nowadays seems to require a password.  And we’ve already touched on the dangers of reusing passwords across sites.  So how do you keep track of all those passwords?   A password manager solves that problem by keeping track of all your passwords for you so you can use hundreds of long strong unique passwords, which simply wouldn’t be practical any other way.
+
+In addition to long strong unique passwords, I also recommend enabling Two-factor authentication everywhere you can.   Two-Factor authentication is commonly done by receiving a code via a text message to your phone.  It's like having two locks on a door that each require their own key.  If you are using Two-Factor authentication, and your password is hacked, you're still protected because the bad-guys don't have the other key.
+
+Another easy step you can take to prevent identity theft is to protect against what’s called SIM Swapping.  SIM Swapping attacks started to become prevalent last year.  Its when a bad-guy takes over your cell phone number so they can impersonate you.  All the major mobile phone carriers allow you to lock down your phone number to prevent SIM Swapping, but for some strange reason it’s an optional step today.  I’ll show you how to enable it in a minute.
+
+The last recommendation is to embrace the new Passkeys system that's starting to show up everywhere.  Passkeys is a replacement for passwords that is both easy to use, and more secure.  Passkeys is becoming mainstream in 2025, and hopefully it will eventually replace the need for passwords.  So for now, I recommend welcoming it, and beginning to use it when it’s available to you.
+
+Now let’s talk more about each of these

@@ -1,0 +1,24 @@
+Sim Swapping is a fraud that most people haven’t heard of, but can be financially devastating.  It is usually done in a highly targeted attacks against high-value targets.
+
+To pull off the attack criminals gather personal information about the target, and use it to convince their mobile phone carrier to transfer the victim’s phone number to a device the criminal controls.  Once that’s done, the criminals used the stolen phone number to contact the victim's bank, because they control the phone number associated with the victims account they are able to capture any two-factor authentication codes to authenticate with the bank.  At that point they have full control of the bank account and they proceed to empty it.
+
+Fortunately mobile phone carriers have made it easy to thwart SIM Swapping, but for some reason it’s optional and must be turned on by the user.   The hand out has instructions to turn on SIM Swapping protection for all the major mobile carriers (AT&T, T Mobile, and Verizon).
+
+This protection takes just a few minutes to set up, so I highly recommend that everyone do it.
+
+To illustrate how sim swapping fraud works, here is the story of a sim swapping criminal who stole $1.8 million dollars from homeowners in California:
+
+,Between November 2021 and October 2023, a criminal named Oren David Sela stole mail from homes in Beverly Hills California, and nearby neighborhoods. He collected personal information, including:
+Debit and credit card details,
+Bank account numbers,
+Social Security numbers,
+and Driver’s licenses.
+
+Using this information, Sela carried out SIM swapping attacks to bypass two-factor authentication protections. This allowed him to:
+Break into victims’ online banking and financial accounts.,
+Open new fraudulent accounts in the victims' names.,
+Transfer money into intermediary accounts he controlled.,
+Order new debit and credit cards linked to the victim's accounts.,
+
+Sela made hundreds of fraudulent withdrawals and transfers. He attempted to steal nearly $2.6 million dollars and successfully stole at least $1.8 million before the FBI caught him and put a stop to his criminal activities.
+

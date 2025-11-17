@@ -2,7 +2,7 @@
 # Adjust paths as needed; relative paths are resolved from the project root.
 tts:
   device: "auto"             # "cuda", "mps", "cpu", or "auto"
-  voice_prompt_path: "voice_samples/ChatterboxCloneExample2.wav"  # Path to a reference voice sample (wav). Leave empty to use default voice.
+  voice_prompt_path: "voice_samples/JohnSampleForCyberSecurityForVolunteers.wav"  # Path to a reference voice sample (wav). Leave empty to use default voice.
   cfg_weight: 0.5            # Optional Chatterbox CFG; 0.3-0.7 are typical
   exaggeration: 0.5          # Optional emotion/exaggeration control; 0.0-1.0
 

@@ -1,0 +1,13 @@
+Malware is a category on its own, but it usually ends in Identity Theft or Direct Theft.
+
+The bad-guys end goal is to steal your money.   They do this by gaining control of your computer or phone so they have access to all your information and everything you do on the device.  If they get this, they control everything, including all your data and access to your microphone, camera, and anything you type on the keyboard.
+
+Bad guys have lots of techniques they use to get Malware onto your device.  Here are the most common approaches they use.
+
+The first is that you get a pop-up warning you of something urgent, directing you to click something.  These are tricky because anything you click is probably bad.   If you don’t know how to get rid of the pop-up the best thing to do is simply shut down your device.  If it returns, you have a serious problem!  Shut your device down and seek expert help
+
+The second way malware gets in to your computer or phone is when a bad-guy lures you into installing a malicious app.  This frequently happens with free games, or sports apps, video apps, etc. My advice is to be very conservative and don’t install apps unless you check it out and you're certain it doesn't contain malware.  Don't trust apps just because they sound compelling.  They can easily be hiding something malicious that will steal from you.
+
+We’ll talk more about ways to avoid malware in a few minutes.
+
+

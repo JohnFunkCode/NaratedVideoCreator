@@ -1,0 +1,10 @@
+Here are the password managers I recommend depending on what platform you use.
+
+Bitwarden is my top pick overall. It’s free for personal use, and it runs on Windows, Mac, iPhone, and Android Phones and tablets, and it has a web interface as well.   It’s feature packed.  It supports the new Passkeys system, and it has an affordable family plan that helps you share passwords and setup emergency access.
+
+Apple Passwords is a great choice for people who are Apple users.  It is easy to setup and use, and it supports the new Passkeys system.   It supports iPhone, iPad, and Mac, however, it doesn’t support Windows or Android, so if you're not on an Apple device, you won't have access to your passwords.
+
+Google Password Manager is best for people who only use Android or the Chrome Browser.  It is very simple to setup and use, and it supports the new Passkeys system.  However, you won’t have access to your passwords if you’re not using Android or the Chrome Browser.
+
+The hand-out has more information and instructions to get started with each of these password managers.
+
