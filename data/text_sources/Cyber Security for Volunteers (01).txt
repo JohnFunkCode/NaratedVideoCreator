@@ -1,3 +1,15 @@
-I’m John Funk with the Pet Therapy program.  This is a picture of my partner Karat.  She loves visiting patients and staff here at the hospital, so you might see us making the rounds.
+Hi, I’m John Funk.
 
-When Heather mentioned she wanted to find someone to do a talk about Cyber Security Safety, I volunteered because I’m a Software Engineer who used to run the education department at a silicon valley tech company.   In that role, I developed a Cyber Security training program for engineers at the US Army Software Factory.   Now that I’m retired, I still stay current with Cyber Security topics, and I’m happy to share a bit of what I know to help you all stay safe from cyber criminals.
+Let’s be honest, cybercrime is scary.
+
+Every week, you hear about someone getting hacked or scammed out of their life savings.
+
+For most people, it feels like a overwhelming mess that's getting worse, but they don't know what to do about it.  You hear bits and pieces of advice online, but it’s hard to know what’s true, or what actually matters. The reality is, cybercrime today is an organized business. These aren’t kids in basements trying to steal a few bucks.  Todays cyber criminals are professionals who are smart, patient, and they are good at manipulating people.
+
+But here’s the thing, you don’t have to be a computer expert to stay safe. You just need to know how the bad guys operate, and learn a few simple things that will make you a harder target.
+
+That’s why I’m here.
+
+I’ve been around the world of cybersecurity and hacking since before the turn of the century — back in the days of dial-up modems and floppy disks. I’m a software engineer by trade, and I used to run the education department at a Silicon Valley tech company. In 2023, I helped build a cybersecurity training program for the U.S. Army Software Factory. Now that I’m retired, I get to spend more time studying how cyber criminals think, and helping to educate people how to protect themselves and their families.
+
+This talk isn’t about turning you into a computer expert. It’s about helping you stay safe, and providing clear, practical advice that actually works.

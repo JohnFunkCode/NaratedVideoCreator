@@ -1,13 +1,14 @@
 We covered a lot of ground today.
 
-We talked about protecting yourself from a variety of scams and how to prevent identity theft.  And we talked about ways to keep your devices safe from Malware and theft or loss.
+We talked about protecting yourself from a variety of scams and how to prevent identity theft.  We also talked about ways to keep your devices safe from Malware and theft or loss.
 
 Remember, there are three big action items I want everyone to take away from this session.
 One:, Freeze your credit.
-Two:, Turn on Sim Swapping Protection with your mobile carrier.
-Three:, Setup a Password Manager.
+Two:, Turn on "Sim swapping protection" with your mobile carrier.
+Three:, Setup and use a Password Manager.
 
-If you do those three things to protect yourself, you will dramatically decrease the odds you’ll be wiped out by cyber criminals.
-You’ll still have to watch for the common red flags for scams, work to never click on links, and take a moment to think before acting if you sense a scam.  But you’ll have the baseline mechanisms in place to protect yourself.
+If you do those three things to protect yourself, you won't be an easy target, and you'll decrease the odds you’ll be wiped out by cyber criminals.
 
-Thanks for sticking with me, I hope you found it helpful.
+You’ll still have to watch for the common red flags that can alert you to a scam.  You'll have to work to never click on links.  And you'll have to remember to take a moment to think before acting if you sense a scam. But now you have the baseline understanding of how cyber scammers operate, and you know what to watch out for.
+
+You also have a few new tools you can use to protect yourself.

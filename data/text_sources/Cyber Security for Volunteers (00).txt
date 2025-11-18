@@ -1,3 +1,2 @@
-Hi Everyone,
-let's get started.
-,
+In this talk we’ll discuss Cyber Safety for Regular Folks.
+You don’t need to be a computer expert to stay safe!
